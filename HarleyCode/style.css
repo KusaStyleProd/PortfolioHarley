@@ -1,62 +1,63 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Style Script', cursive;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #395452;
 }
-section
-{
-    padding: 20px;
-    width: 1280px;
-    margin: 40px auto;
+.list {
+  font-family: "Style Script", cursive;
+  text-transform: capitalize;
 }
-section ul
-{
-    display: flex;
-    margin-bottom: 10px;
+section {
+  padding: 20px;
+  width: 1280px;
+  margin: 40px auto;
 }
-section li
-{
-    list-style: none;
-    background: #eee;
-    padding: 8px 20px;
-    margin: 5px;
-    letter-spacing: 1px;
-    cursor: pointer;
+section ul {
+  display: flex;
+  margin-bottom: 10px;
 }
-section ul li.active
-{
-    background: #03a9f4;
-    color: #fff;
+section li {
+  list-style: none;
+  background: #eee;
+  padding: 8px 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
-.product
-{
-    display: flex;
-    flex-wrap: wrap;
+section ul li.active {
+  background: rgb(150, 230, 219);
+  color: #395452;
 }
-.product .itemBox
-{
-    position: relative;
-    width: 300px;
-    height: 300px;
-    margin: 5px;
+.product {
+  display: flex;
+  flex-wrap: wrap;
 }
-.product .itemBox img
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.product .itemBox {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
 }
-.product .itemBox video
-{
-    width: 100%;
-    height: 800px;
+.product .itemBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.button 
-{
-    font-size: 22px !important;
+.product .itemBox video {
+  width: 100%;
+  height: 800px;
+}
+button {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background: #395452;
+  color: white;
+  padding: 5px;
+  height: 35px;
+  border-radius: 5px;
 }
